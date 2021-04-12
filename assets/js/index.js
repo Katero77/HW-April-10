@@ -40,7 +40,7 @@ class Student extends User{
 }
 
 const student1 = new Student("Bondar", "Ivan", 2020);
-const student2 = new Student("Semenov", "Alex", 2009);
-const student3 = new Student("Horbachev", "Mikhail", 2000);
+const student2 = new Student("Semenov", "Alex", 2021);
+const student3 = new Student("Horbachev", "Mikhail", 2012);
 const students = [student1, student2, student3];
 students.forEach((student) => console.log(`Student ${student.getFullName()} studying on ${student.getCourse()} course.`));
